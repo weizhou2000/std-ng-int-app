@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 
 
 // -------------------------------------
-import Sample from './c/sample/index';
+import {StdComponent as Sample} from './c/sample/index';
 
 export const routes: Routes = [
   {

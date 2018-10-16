@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Shared } from '../shared/m';
 import { RouterModule, Routes } from '@angular/router';
 import {routes} from './routes'
 
 
 // -------------------------------------
-import Sample from './c/sample/index';
+import {StdComponent as Sample} from './c/sample/index';
 
 @NgModule({
   imports: [
-    CommonModule,
+    Shared,
     RouterModule.forChild(routes),
   ],
   declarations: [Sample]
